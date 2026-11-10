@@ -172,7 +172,7 @@ Faixa âmbar (`bg-amber-500/5` + `border-amber-500/30`) quando a soma das metas 
 
 ## 6. Layout da área logada
 
-- **Sidebar fixa no desktop** (`w-64`, `bg-slate-900 border-r border-slate-800`): logo Tallyora em gradiente, links com ícone + texto e estado ativo destacado, botão de logout no rodapé.
+- **Sidebar fixa no desktop** (`w-64`, `bg-slate-900 border-r border-slate-800`): logo Dindero em gradiente, links com ícone + texto e estado ativo destacado, botão de logout no rodapé.
 - **Itens de navegação:** Dashboard (`core:dashboard`), Meu Perfil & Salário (`profiles:profile`), Contas & Cartões (`accounts:list`), Categorias (`categories:list`), Transações & Fatura (`transactions:list`), Caixinhas & Eventos (`goals:list`), Investimentos P3X (`investments:portfolio`) e Lembretes do Dia (`reminders:list`). Todos são links ativos; o estado ativo usa `request.resolver_match.app_name`.
 - **Área de conteúdo:** `max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8`, com grids responsivos `grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6`.
 - **Sidebar responsiva:** recolhe em telas pequenas; no mobile a navegação vira menu colapsável.

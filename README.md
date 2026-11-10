@@ -1,4 +1,4 @@
-# Tallyora
+# Dindero
 
 Finanças pessoais, investimentos e eventos em um só lugar — receita do mês,
 gastos na conta, fatura do cartão sem duplicidade, caixinhas, carteira de

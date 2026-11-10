@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}Tallyora{% endblock %}</title>
+  <title>{% block title %}Dindero{% endblock %}</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +23,13 @@
          aria-label="Navegação principal">
 
     <div class="flex h-16 shrink-0 items-center justify-between border-b border-slate-800 px-5">
-      <a href="{% url 'core:dashboard' %}" class="flex items-center gap-2" aria-label="Tallyora — Dashboard">
+      <a href="{% url 'core:dashboard' %}" class="flex items-center gap-2" aria-label="Dindero — Dashboard">
         <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-400 text-slate-950">
           <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M4 17l5-5 3 3 7-7"></path>
           </svg>
         </span>
-        <span class="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text text-xl font-extrabold tracking-tight text-transparent">Tallyora</span>
+        <span class="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text text-xl font-extrabold tracking-tight text-transparent">Dindero</span>
       </a>
       <button type="button" id="sidebar-close"
               class="rounded-lg p-2 text-slate-400 transition-colors hover:bg-slate-800 hover:text-slate-200 lg:hidden"
@@ -179,7 +179,7 @@
           <p class="truncate text-sm text-slate-400">
             Olá, <span class="font-semibold text-slate-100">{{ user.first_name|default:user.email }}</span>
           </p>
-          <p class="hidden truncate text-xs text-slate-500 sm:block">Bem-vindo de volta ao Tallyora.</p>
+          <p class="hidden truncate text-xs text-slate-500 sm:block">Bem-vindo de volta ao Dindero.</p>
         </div>
 
         <div class="ml-auto flex items-center gap-3">
@@ -223,7 +223,7 @@
     </main>
 
     <footer class="mt-auto border-t border-slate-800 px-4 py-6 sm:px-6 lg:px-8">
-      <p class="mx-auto max-w-7xl text-xs text-slate-500">Tallyora — valores em reais (R$), com precisão de centavos.</p>
+      <p class="mx-auto max-w-7xl text-xs text-slate-500">Dindero — valores em reais (R$), com precisão de centavos.</p>
     </footer>
   </div>
 

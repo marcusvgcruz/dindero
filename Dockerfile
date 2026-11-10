@@ -1,5 +1,5 @@
-# Tallyora — imagem de execução (Django 6.1 / Python 3.12)
-# Build:  docker build -t tallyora:sprint6 .
+# Dindero — imagem de execução (Django 6.1 / Python 3.12)
+# Build:  docker build -t dindero:sprint6 .
 # Run:    docker compose up --build   (ver docker-compose.yml)
 
 FROM python:3.12-slim

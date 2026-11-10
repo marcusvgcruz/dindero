@@ -13,7 +13,7 @@ class BankAccountModelTests(TestCase):
 
     def setUp(self):
         self.user = CustomUser.objects.create_user(
-            email='conta@tallyora.test',
+            email='conta@dindero.test',
             password='Zx9#pKq7wLm2',
         )
 
@@ -52,7 +52,7 @@ class BankAccountModelTests(TestCase):
     def test_accounts_are_isolated_per_user(self):
         """One user never sees the accounts of another."""
         other = CustomUser.objects.create_user(
-            email='outro@tallyora.test',
+            email='outro@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         BankAccount.objects.create(user=self.user, name='Minha conta')
@@ -72,7 +72,7 @@ class AccountListPaginationTests(TestCase):
     def setUp(self):
         """Create twelve accounts for one user."""
         self.user = CustomUser.objects.create_user(
-            email='contas@tallyora.test',
+            email='contas@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         self.client.force_login(self.user)
@@ -114,7 +114,7 @@ class AccountListPaginationTests(TestCase):
     def test_pagination_never_shows_another_user_item(self):
         """The pages only bring accounts of the logged user."""
         other = CustomUser.objects.create_user(
-            email='contas2@tallyora.test',
+            email='contas2@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         for index in range(1, 13):

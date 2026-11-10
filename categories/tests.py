@@ -12,7 +12,7 @@ class CategoryModelTests(TestCase):
 
     def setUp(self):
         self.user = CustomUser.objects.create_user(
-            email='categoria@tallyora.test',
+            email='categoria@dindero.test',
             password='Zx9#pKq7wLm2',
         )
 
@@ -55,7 +55,7 @@ class CategoryModelTests(TestCase):
     def test_two_users_can_share_a_category_name(self):
         """The uniqueness is per user, not global."""
         other = CustomUser.objects.create_user(
-            email='categoria2@tallyora.test',
+            email='categoria2@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         Category.objects.create(
@@ -73,7 +73,7 @@ class CategoryListPaginationTests(TestCase):
     def setUp(self):
         """Replace the seeded categories with twelve of our own."""
         self.user = CustomUser.objects.create_user(
-            email='listacategorias@tallyora.test',
+            email='listacategorias@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         self.client.force_login(self.user)
@@ -110,7 +110,7 @@ class CategoryListPaginationTests(TestCase):
     def test_pagination_never_shows_another_user_item(self):
         """The pages only bring categories of the logged user."""
         other = CustomUser.objects.create_user(
-            email='listacategorias2@tallyora.test',
+            email='listacategorias2@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         Category.objects.filter(user=other).delete()

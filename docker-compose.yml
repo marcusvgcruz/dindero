@@ -1,4 +1,4 @@
-# Tallyora — stack local: Django + PostgreSQL 16
+# Dindero — stack local: Django + PostgreSQL 16
 #   cp .env.example .env
 #   docker compose up --build
 #   http://localhost:8080/

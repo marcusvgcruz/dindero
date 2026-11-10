@@ -1,8 +1,8 @@
-# Documentação — Tallyora
+# Documentação — Dindero
 
-Índice da documentação técnica e de produto do projeto **Tallyora**.
+Índice da documentação técnica e de produto do projeto **Dindero**.
 
-Tallyora é uma aplicação web de gestão de finanças pessoais, investimentos e planejamento de eventos, construída com Python, Django e TailwindCSS.
+Dindero é uma aplicação web de gestão de finanças pessoais, investimentos e planejamento de eventos, construída com Python, Django e TailwindCSS.
 
 ## Como navegar
 

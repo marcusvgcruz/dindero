@@ -1,6 +1,6 @@
 # 03 — Padrões de Código
 
-Padrões obrigatórios para qualquer código escrito no Tallyora. Vêm dos requisitos não-funcionais do PRD (RNF01–RNF08).
+Padrões obrigatórios para qualquer código escrito no Dindero. Vêm dos requisitos não-funcionais do PRD (RNF01–RNF08).
 
 ## 1. PEP8 e formatação
 
@@ -80,7 +80,7 @@ Signal dentro de `models.py` ou `views.py` é proibido.
 
 ## 8. Isolamento de dados por usuário (RNF08)
 
-Tallyora é multi-tenant lógico: cada usuário só enxerga os próprios dados financeiros. Toda view que lista ou altera dados deve:
+Dindero é multi-tenant lógico: cada usuário só enxerga os próprios dados financeiros. Toda view que lista ou altera dados deve:
 
 1. Herdar de `LoginRequiredMixin`.
 2. Filtrar o queryset por usuário:

@@ -1,4 +1,4 @@
-"""Django settings for the Tallyora project."""
+"""Django settings for the Dindero project."""
 
 import os
 from pathlib import Path
@@ -199,7 +199,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Sem SMTP no .env, a mensagem (ex.: redefinição de senha) sai no terminal.
 
 DEFAULT_FROM_EMAIL = os.environ.get(
-    'DEFAULT_FROM_EMAIL', 'Tallyora <nao-responda@tallyora.local>'
+    'DEFAULT_FROM_EMAIL', 'Dindero <nao-responda@dindero.local>'
 )
 
 if os.environ.get('EMAIL_HOST'):

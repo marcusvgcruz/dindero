@@ -2,7 +2,7 @@
 
 ## O que é
 
-O **Tallyora** é uma aplicação web *full stack* de gestão de finanças pessoais, controle de investimentos e planejamento de eventos. Transforma a lógica de uma planilha financeira avançada em uma plataforma web com interface *Dark Mode*.
+O **Dindero** é uma aplicação web *full stack* de gestão de finanças pessoais, controle de investimentos e planejamento de eventos. Transforma a lógica de uma planilha financeira avançada em uma plataforma web com interface *Dark Mode*.
 
 ## Problema que resolve
 
@@ -12,7 +12,7 @@ Aplicativos financeiros comuns erram em três pontos do fluxo de caixa brasileir
 2. Não modelam salário quinzenal (adiantamento + pagamento final com descontos em folha).
 3. Tratam o dinheiro reservado desconectado dos grandes projetos do usuário (casamento, viagem, reforma).
 
-O Tallyora responde a três perguntas:
+O Dindero responde a três perguntas:
 
 1. *Quanto realmente sobra na conta no período, depois de contas, fatura e objetivos?*
 2. *Como está a evolução do patrimônio investido e onde aportar este mês?*
