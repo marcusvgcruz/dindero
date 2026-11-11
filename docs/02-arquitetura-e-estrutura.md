@@ -17,7 +17,7 @@
 ## Estrutura de diretórios real
 
 ```text
-tallyora/
+dindero/
 ├── manage.py
 ├── requirements.txt
 ├── .env                    # credenciais locais (NÃO versionado)

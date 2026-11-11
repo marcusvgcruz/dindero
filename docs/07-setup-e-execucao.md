@@ -51,7 +51,7 @@ não escreve nada no Google.
 ## Primeira execução (5 comandos)
 
 ```bash
-cd ~/projetos/tallyora
+cd ~/projetos/dindero
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -245,7 +245,7 @@ vão dentro de `OPTIONS` (`host`, `port`, `username`, `password`, `use_tls`). Co
 
 ## Versionamento
 
-Repositório Git, branch `main`, remoto público: `https://github.com/marcusvgcruz/tallyora`.
+Repositório Git, branch `main`, remoto público: `https://github.com/marcusvgcruz/dindero`.
 
 ```bash
 git add -A && git commit -m "mensagem" && git push

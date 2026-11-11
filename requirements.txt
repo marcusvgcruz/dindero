@@ -1,4 +1,4 @@
-# Dependências de execução do Tallyora.
+# Dependências de execução do Dindero.
 # Instale com: pip install -r requirements.txt
 # Ferramentas de desenvolvimento (lint/formatação): requirements-dev.txt
 

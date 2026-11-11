@@ -1,4 +1,4 @@
-"""Automated tests for the e-mail based authentication of Tallyora."""
+"""Automated tests for the e-mail based authentication of Dindero."""
 
 import re
 
@@ -15,7 +15,7 @@ from .forms import UserRegistrationForm
 
 User = get_user_model()
 
-PASSWORD = 'Tallyora#2026'
+PASSWORD = 'Dindero#2026'
 EMAIL = 'maria@example.com'
 
 
@@ -279,7 +279,7 @@ class PasswordResetRequestTests(TestCase):
         self.request_reset()
         self.assertEqual(
             mail.outbox[0].subject,
-            'Redefinição de senha no Tallyora',
+            'Redefinição de senha no Dindero',
         )
 
     def test_message_body_carries_the_reset_link(self):

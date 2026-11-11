@@ -51,7 +51,7 @@ Retrato do que existe em disco hoje (24/10/2026), verificado no código e no ban
 | Docker (6.3.1 / 6.3.2) | `Dockerfile` (`python:3.12-slim`, não-root, healthcheck) + `docker-compose.yml` (`web` + `postgres:16-alpine`, volume `pgdata`, `pg_isready`, migração automática, `WEB_PORT`) |
 | Documentação de execução (6.3.3) | `README.md` com os dois caminhos (SQLite sem Docker e Compose), provados rodando |
 | `.gitignore` + `.env.example` | excluem `venv/`, `__pycache__/`, `db.sqlite3`, `.env`, `staticfiles/` e `node_modules/`; CSS compilado é versionado |
-| Repositório publicado | `main` → https://github.com/marcusvgcruz/tallyora (público) |
+| Repositório publicado | `main` → https://github.com/marcusvgcruz/dindero (público) |
 
 ## Não implementado
 

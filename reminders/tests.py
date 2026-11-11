@@ -25,7 +25,7 @@ class DailyReminderModelTests(TestCase):
 
     def setUp(self):
         self.user = CustomUser.objects.create_user(
-            email='lembrete@tallyora.test',
+            email='lembrete@dindero.test',
             password='Zx9#pKq7wLm2',
         )
 
@@ -87,7 +87,7 @@ class ReminderViewsTests(TestCase):
 
     def setUp(self):
         self.user = CustomUser.objects.create_user(
-            email='lembrete2@tallyora.test',
+            email='lembrete2@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         self.client.force_login(self.user)
@@ -130,7 +130,7 @@ class ReminderViewsTests(TestCase):
     def test_delete_refuses_another_users_reminder(self):
         """A reminder of someone else answers 404."""
         outro = CustomUser.objects.create_user(
-            email='lembrete3@tallyora.test',
+            email='lembrete3@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         alheio = DailyReminder.objects.create(
@@ -152,7 +152,7 @@ class ReminderSyncViewTests(TestCase):
 
     def setUp(self):
         self.user = CustomUser.objects.create_user(
-            email='sync@tallyora.test',
+            email='sync@dindero.test',
             password='Zx9#pKq7wLm2',
         )
 
@@ -225,7 +225,7 @@ class ReminderPaginationTests(TestCase):
 
     def setUp(self):
         self.user = CustomUser.objects.create_user(
-            email='pagina@tallyora.test',
+            email='pagina@dindero.test',
             password='Zx9#pKq7wLm2',
         )
         self.client.force_login(self.user)

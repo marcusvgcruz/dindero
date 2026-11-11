@@ -17,7 +17,7 @@ INPUT_CLASSES = (
 
 
 class UserRegistrationForm(UserCreationForm):
-    """Public registration form for a new Tallyora account."""
+    """Public registration form for a new Dindero account."""
 
     class Meta:
         model = CustomUser
